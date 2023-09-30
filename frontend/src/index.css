@@ -27,3 +27,40 @@ min-height: 80vh;
   background-color: rgb(0, 106, 130);
   color: rgb(18, 255, 255);
 }
+
+.brand-cat{
+
+  display: inline-flex;
+}
+
+.col-bk-color{
+  background-color: #008b8b;
+  color: darkblue;
+  display: flex;
+  
+}
+
+h2 h3 h4 h5 {
+  color: #008b8b;
+}
+
+
+.footer-row{
+   /* background-color: darkolivegreen; */
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* .footer-col{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} */
+
+.div-inline-link{
+display: flex;
+justify-content: space-between;
+}

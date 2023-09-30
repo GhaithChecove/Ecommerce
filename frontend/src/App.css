@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+/* 
+.App {
+
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  grid-template-rows: 10% 1fr 20%;
+  gap: 10px;
+  justify-content: start;
+  background-color: rgb(139, 0, 109);
+  flex-wrap: wrap;
+  
+} */
+
+/* 
+#title{
+  color:white;
+  position:absolute;
+  top:5%;
+  margin-left:7%;
+  z-index: 1000;
+  
+}
+#card-summary{
+  
+  color:white;
+  position:absolute;
+  top:8%;
+  margin-left: 3%;
+  width:94%;
+  z-index: 1000;
+  
+  
+}
+#card-main-content {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+  
+}
+
+body {
+  background-color: darkgray;
+}
+.App{
+display: flex;
+margin-left:1%;
+justify-content: start;
+gap: 10px;
+flex-wrap: wrap;
+
+}
+
+
+.card{
+  background-color: darkcyan;
+  width:20%;
+  height: 350px;
+  color: white;
+}
+
+
+.image{
+  width:100%;
+  height:100%;
+}
+
+.main-grid{
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  grid-template-rows: 5% 1fr 20%;
+  justify-content: space-between;
+}
+
+p{
+  
+  color:aliceblue;
+  
+
+}
+
+
+.test {
+display: flex;
+position: absolute;
+top:150px;
+width:500px ;
+  height:500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.set-color{
+   width: 300px;
+   display: inline-flex;
+   justify-content: end;
+   position: absolute;
+   margin-top:150px;
+   align-items: end;
+
+} */
+
+ 
+
+.brand-cat{
+
+  display: inline-flex;
+}
+
+.col-bk-color{
+  background-color: #008b8b;
+  color: darkblue;
+  display: flex;
+  
+}
+
+h2 h3 h4 h5 {
+  color: #008b8b;
+}

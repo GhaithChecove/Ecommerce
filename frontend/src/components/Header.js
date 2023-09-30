@@ -25,7 +25,7 @@ function Header() {
               <LinkContainer to={'/'}>
                 <Nav.Link ><i className='fa fa-home'></i>Home</Nav.Link>
               </LinkContainer>
-              <LinkContainer to={'/product/:id'}>
+              <LinkContainer to={'/product'}>
                 <Nav.Link ><i className='fa fa-shopping-cart'></i>Cart</Nav.Link>
               </LinkContainer>
               <LinkContainer to={'/login'}>

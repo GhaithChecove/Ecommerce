@@ -46,7 +46,7 @@ function ProductScreen() {
             </Row>
             <Row className='p-3 h-75'>
                 <Col className='m-3'>
-                    <Image className="w-100 h-100" src={product.image}></Image>
+                    <Image className="w-100 h-100" src={product.image} alt={product.name} fluid></Image>
                 </Col>
                 <Col className='m-3'>
 
@@ -69,7 +69,31 @@ function ProductScreen() {
 
                     </ListGroup>
                 </Col>
-                <Col className='w-25'></Col>
+                <Col className='w-25'>
+                <ListGroup>
+                    <ListGroup.Item>
+                        <Row>
+                            <Col>Price:</Col>
+                            <Col><strong>$ {product.price}</strong></Col>
+                        </Row>
+                    </ListGroup.Item>
+                     
+                    <ListGroup.Item>
+                        <Row>
+                            <Col>Status:</Col>
+                            <Col><strong>{product.countInStock >0 ? "In Stock" :"Out of Stock"}</strong></Col>
+                        </Row>
+                    </ListGroup.Item>
+                    <ListGroup.Item>
+                        <Row>
+                           <Button variant="primary" className='btn-block' type='button'>Add To Cart</Button>
+                            
+                        </Row>
+                    </ListGroup.Item>
+                </ListGroup>
+
+
+                </Col>
 
 
             </Row>

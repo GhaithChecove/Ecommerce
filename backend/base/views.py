@@ -5,6 +5,8 @@ from base.products import products
 from rest_framework.decorators  import api_view,permission_classes
 from rest_framework.response import Response
 from rest_framework import permissions
+from . import models as m
+from . import serializer as seri
 
 def getHome(request):
     message = "Home Page"
@@ -15,20 +17,17 @@ def getHome(request):
 @api_view(['GET'])
 @permission_classes((permissions.AllowAny,))
 def getProducts(request):
-    myProducts = products
+    products  = m.Product.objects.all()
+    products = seri.ProductSerializer(products , many = True)
     
-    return Response(myProducts )
+    return Response(products.data)
 
 
 @api_view(['GET'])
 @permission_classes((permissions.AllowAny, ))
 def getProduct(request , pk):
-    arr =  products
-    product = ''
-    for i in arr:
-        if i['_id']== pk:
-            product=i
-            break
+    product =  m.Product.objects.get(_id=pk)
+    product = seri.ProductSerializer(product,many=False)
 
-    return Response(product)
+    return Response(product.data)
     

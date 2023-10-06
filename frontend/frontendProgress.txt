@@ -1,0 +1,61 @@
+This file will help to track the progression in frontend 
+
+# this sign (--) means new title 
+# this sign (---x) means branch title with number xl
+# this sign (*X*) means new section or stage  with number x
+
+
+
+
+*1*
+    First Step of the frontend
+1-- install and build react js 
+-1-- after installing react and create some basic fundementals 
+    as components and screens React-Functional-Arrow-Functions 
+-2-- install react-bootstrap-dom which help us in building our 
+    app components and control the rendering of the web page 
+-3-- add bootstrap.min.css to ou project in src 
+-4-- add images in public file as resources 
+-5-- add components and screens files in src dir
+-6-- add fontawesome.css in src files 
+
+
+
+###########################################################3
+
+
+
+*2*
+    Connect frontend to the backend app 
+
+1-- Fetching dynamic data from backend app 
+-1-- install axios with npm install axios 
+-2-- use axios as we use ajax to fetch data from API
+-3-- we use axios beside {useState , useEffect } where ever we need
+    it connect to the api and fetching data as promise and then 
+    use it as json objects 
+
+##################################################################
+
+
+
+*3*
+        implement Redux in react frontend app 
+
+1-- installing redux devtools in the browser 
+
+2-- installing redux in the react app using 
+-1-- installing redux using 
+    npm install redux react-redux redux-thunk redux-devtools-extension
+    [redux  , react-redux , redux-thunk, redux-devtools-extension]
+
+    - redux state management library (think about redux as an independent thing)
+    - react-redux package to connect to redux
+    - redux-thunk allow us to make async requests from our action creator so it can a middelware to our store
+    - redux-devtools-extension this allow us to store states in our browser redux tool
+
+    
+
+
+
+

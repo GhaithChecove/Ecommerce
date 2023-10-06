@@ -127,6 +127,15 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+## this make photos render in the admin page
+MEDIA_URL = '/images/'
+
+STATICFILES_DIRS = [
+    BASE_DIR /'static'
+]
+
+MEDIA_ROOT  ='static/images'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
